@@ -50,6 +50,7 @@ LOCAL_PRIVATE_PLATFORM_APIS := true
 LOCAL_CERTIFICATE := platform
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_MODULE_TAGS := optional
+LOCAL_PRODUCT_MODULE := true
 
 include $(BUILD_PACKAGE)
 
@@ -59,6 +60,7 @@ LOCAL_MODULE := prebuilt-play-services-base
 LOCAL_SRC_FILES := libs/aar/play-services-base-16.1.0.aar
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_SDK_VERSION := current
+LOCAL_PRODUCT_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -67,6 +69,7 @@ LOCAL_MODULE := prebuilt-play-services-basement
 LOCAL_SRC_FILES := libs/aar/play-services-basement-16.2.0.aar
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_SDK_VERSION := current
+LOCAL_PRODUCT_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -75,6 +78,7 @@ LOCAL_MODULE := prebuilt-play-services-location
 LOCAL_SRC_FILES := libs/aar/play-services-location-16.0.0.aar
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_SDK_VERSION := current
+LOCAL_PRODUCT_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -83,6 +87,7 @@ LOCAL_MODULE := prebuilt-play-services-places-placereport
 LOCAL_SRC_FILES := libs/aar/play-services-places-placereport-16.0.0.aar
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_SDK_VERSION := current
+LOCAL_PRODUCT_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -91,6 +96,7 @@ LOCAL_MODULE := prebuilt-play-services-task
 LOCAL_SRC_FILES := libs/aar/play-services-tasks-16.0.1.aar
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_SDK_VERSION := current
+LOCAL_PRODUCT_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -99,6 +105,7 @@ LOCAL_MODULE := prebuilt-gson
 LOCAL_SRC_FILES := libs/gson-2.8.5.jar
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_SDK_VERSION := current
+LOCAL_PRODUCT_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -107,6 +114,7 @@ LOCAL_MODULE := prebuilt-jsoup
 LOCAL_SRC_FILES := libs/jsoup-1.11.3.jar
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_SDK_VERSION := current
+LOCAL_PRODUCT_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -115,6 +123,7 @@ LOCAL_MODULE := prebuilt-okhttp
 LOCAL_SRC_FILES := libs/okhttp-3.11.0.jar
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_SDK_VERSION := current
+LOCAL_PRODUCT_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -123,4 +132,5 @@ LOCAL_MODULE := prebuilt-okio
 LOCAL_SRC_FILES := libs/okio-1.14.0.jar
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_SDK_VERSION := current
+LOCAL_PRODUCT_MODULE := true
 include $(BUILD_PREBUILT)
